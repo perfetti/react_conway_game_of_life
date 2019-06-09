@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.board {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.node {
+  height: 20px;
+  min-width: 20px;
+}
+
+.alive {
+  background: red;
+}
+
+.dead {
+  background: black;
+}
+
+.stepperButton {
+  position: fixed;
+  bottom: 100px;
+  left: 100px;
+}
